@@ -4,7 +4,7 @@
 
 ## 🧾 Overview
 
-Open Lobrary is a full-stack gardening tips platform where users can explore books, borrow books, connect with others. The site supports authentication, CRUD functionalities, filtering, and user-specific experiences.
+Open Lobrary is a full-stack library platform where users can explore books, borrow books, connect with others. The site supports authentication, CRUD functionalities, filtering, and user-specific experiences.
 
 ---
 
