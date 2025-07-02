@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+}
+
+@theme {
+  --font-open-sans: "Open Sans", sans-serif;
+  --color-footer-text-color: hsla(0, 0%, 100%, 0.8);
+  --color-whitey-blue: #123d80;
+  --color-hero-input-text: #1f1f1f;
+  --color-lightgray-color: #d8d9da;
+  --color-primary-blue: #488aec;
+  --shadow-custom-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+}
+
+html {
+  @apply font-open-sans;
+}
+
+.underline-effect {
+  @apply relative after:absolute after:top-full after:left-0 after:content-[''] after:h-1 after:w-0 hover:after:w-full after:transition-all duration-1000 after:bg-whitey-blue;
+}
+
+.primary-btn {
+  @apply bg-whitey-blue block px-8 rounded-xs uppercase py-2 text-white mt-2 cursor-pointer font-medium hover:bg-indigo-600 transition-colors;
+}
+
+.my-custom-btn {
+  @apply border-none  justify-center flex py-[0.75rem] px-[1.5rem]  text-white text-center text-xs leading-4 font-bold cursor-pointer uppercase align-middle  items-center rounded-lg select-none gap-2 shadow-[0_4px_6px_-1px_#488aec31,_0_2px_4px_-1px_#488aec17] transition-[all_0.6s_ease]  focus:active:opacity-[0.85] focus:active:shadow-none;
+}
