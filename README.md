@@ -37,7 +37,6 @@ Open Lobrary is a full-stack library platform where users can explore books, bor
 - 📦 Dynamic Content Fetching (via API)
 - 🧩 JWT-Protected Routes
 - 🛠️ Admin Access / Dashboard
-- 💬 Real-time Feedback or Messaging
 - 📱 Responsive Mobile-first Design
 
 ---
