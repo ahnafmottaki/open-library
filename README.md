@@ -1,6 +1,6 @@
 # 🌐 Open Library
 
-![Open Library](./open-library.png)
+![Open Library](open-library.png)
 
 ## 🧾 Overview
 
